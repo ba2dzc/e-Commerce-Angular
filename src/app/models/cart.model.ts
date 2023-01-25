@@ -6,6 +6,6 @@ export interface CartItem{
     product:string;
     name: string;
     price:number;
-    quantitiy:number;
+    quantity:number;
     id:number;
 }
