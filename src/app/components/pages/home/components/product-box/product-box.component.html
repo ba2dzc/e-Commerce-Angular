@@ -6,7 +6,7 @@
       >
       <div class="w-full"  [ngClass]="{'px-6 flex flex-col justify-between':fullwidthMode}">
         <div class="mx-2" [ngClass]="{'mt-3':fullwidthMode}">
-          <h5>{{product.category}}</h5>
+          <h5>{{product.category.toUpperCase()}}</h5>
           <p class="truncate hover:whitespace-normal">{{product.title}}</p>
           <p *ngIf="fullwidthMode">{{product.description}}</p>
         </div>
